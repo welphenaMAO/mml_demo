@@ -1,0 +1,1 @@
+2019/01/09 03:10:29 [error] 69#0: *2924 directory index of "/app/public/wp-content/themes/bloggist/images/content/Home/floor_three/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/themes/bloggist/images/content/Home/floor_three/ HTTP/1.0", host: "project1.mml.local", referrer: "http://project1.mml.local/home/"

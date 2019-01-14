@@ -1,0 +1,30 @@
+[07-Jan-2019 01:32:21 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 01:32:26 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 01:32:26 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 01:32:29 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 01:41:23 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/bloggist/index.php on line 14
+[07-Jan-2019 01:45:16 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 02:18:51 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 02:18:52 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/index.php on line 19
+[07-Jan-2019 02:23:43 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /app/public/wp-content/themes/bloggist/template-parts/content.php on line 47
+[10-Jan-2019 06:20:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:20:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:21:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:21:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:21:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:21:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:22:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 232
+[10-Jan-2019 06:35:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 231
+[10-Jan-2019 06:35:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/bloggist/header.php on line 231
+[11-Jan-2019 01:11:38 UTC] PHP Warning:  Error while sending QUERY packet. PID=420 in /app/public/wp-includes/wp-db.php on line 1924

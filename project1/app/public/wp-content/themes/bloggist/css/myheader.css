@@ -1,0 +1,476 @@
+@media only screen and (min-width:1023px){
+    #page{
+        height:790px;
+        box-sizing:border-box;
+    }
+    #masthead{
+        position:relative;
+        z-index:99;
+    }
+    .top-nav-wrapper .content-wrap{
+        display:flex;
+        justify-content:space-between;
+        width:1220px;
+        height:120px;
+        margin:0 auto;
+        /*border:1px solid red;*/
+        box-sizing:border-box;
+    }
+    .sheader{
+        margin:0 !important;
+    }
+    .top-nav-wrapper{
+        position:relative;
+        height:790px;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        z-index:101;
+    }
+    /*#headerBg{*/
+        /*position:absolute;*/
+        /*width:100%;*/
+        /*height:100%;*/
+        /*left:0;*/
+        /*top:0;*/
+        /*border:1px solid red;*/
+        /*z-index:101;*/
+    /*}*/
+    .logo-container{
+        display:flex;
+        align-items:center;
+        width:137px !important;
+        height:100%;
+        margin:0 30px 0 20px;
+    }
+    .logo-container a{
+        width:100% !important;
+    }
+    .logo-container a img{
+        width:100% !important;
+        height:50px;
+    }
+    .pmenu{
+        /*float:right;*/
+        height:100%;
+        background-color:transparent !important;
+    }
+    .pmenu .menu-item{
+        float:left;
+        margin:0 2px;
+    }
+    .pmenu .menu-item a{
+        /*background-color:#6ec656;*/
+        height:50px;
+        margin:35px 0;
+        border-radius:5px;
+        line-heihgt:50px;
+        color:#fff;
+        transition:all .6s linear;
+    }
+    .main-navigation ul.pmenu>li:first-child a{
+        padding-left:20px !important;
+    }
+    .navTitle{
+        position:absolute;
+        left:162px;
+        top:359px;
+        /*border:1px solid red;*/
+    }
+    .navTitle .icon{
+        position:absolute;
+        left:-105px;
+        top:35px;
+        min-width:62px;
+        min-height:5px;
+        max-width:62px;
+        max-height:5px;
+        background-color:rgb(110,198,86);
+        line-height:22px;
+        font-weight:400;
+        white-space:nowrap;
+        font-size:14px;
+    }
+    .navTitle .bg{
+        position:absolute;
+        top:244px;
+        left:0;
+    }
+    .navTitle .titleWrap p{
+        font-size:65px;
+        line-height:65px;
+        font-weight:700;
+        font-family:"PT Serif";
+        white-space:nowrap;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transform-origin: 50% 50% 0px;
+        color:#fff;
+    }
+    .navTitle .titleWrap span{
+        position:absolute;
+        left:0;
+        top:182px;
+        font-size:12px;
+        white-space:nowrap;
+        line-height:18px;
+        font-weight:500;
+        color:rgb(110,198,86);
+        letter-spacing:3px;
+        font-family:"Yantramanav";
+        transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+        transform-origin:50% 50% 0px;
+    }
+    /*pop-up*/
+    #mfnDemoPanel{
+        height:100% !important;
+    }
+    #mfnDemoPanel .inside{
+        position:fixed;
+        right:-367px;
+        top:0;
+        width:367px;
+        height:100%;
+        z-index:999;
+        border:1px solid greenyellow;
+    }
+    #mfnDemoPanel .box a{
+        position:absolute;
+        left:-65px;
+        top:400px;
+        width:65px;
+        height:72px;
+        background-color:#262525;
+        color:#fff;
+        font-size:16px;
+        text-decoration:none;
+    }
+    #mfnDemoPanel .box a i{
+        display:block;
+        font-style:normal;
+        width:65px;
+        font-size:26px;
+        font-weight:400;
+        opacity:0.3;
+    }
+    #mfnDemoPanel .headerTemp{
+        background-color:black;
+    }
+    #mfnDemoPanel .headerTemp .menu{
+        /*border:1px solid red;*/
+        padding:10px 0;
+    }
+    #mfnDemoPanel .headerTemp .menu li{
+        display:block;
+        /*border:1px solid blue;*/
+        text-align:center;
+    }
+    #mfnDemoPanel .headerTemp .menu li a{
+        color:rgb(219,219,219);
+        margin:0;
+        padding:0;
+        line-height:28px;
+        font-size:18px;
+        font-weight:400;
+        transition:color 1s linear;
+    }
+    #mfnDemoPanel .headerTemp .menu li.active a{
+        color:rgb(0,149,235);
+    }
+    .content-hide{
+        position:fixed;
+        left:0;
+        top:0;
+        box-sizing:border-box;
+        width:100%;
+        height:100px;
+        background-color:#574442;
+        transition:height 2s linear;
+        z-index:100;
+    }
+}
+@media only screen and (max-width:1022px){
+    #page{
+        position:relative;
+        height:640px;
+        background-color:transparent !important;
+    }
+    #page header{
+        position:relative;
+        z-index:99;
+        margin-bottom:0;
+        background-repeat: no-repeat !important;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    .super-menu{
+        padding-top:30px;
+        padding-left:10px;
+        padding-right:10px;
+        background-color:transparent !important;
+    }
+    #masthead{
+        height:640px;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+    }
+    /*header nav:after{*/
+        /*clear:both;*/
+        /*display:block;*/
+    /*}*/
+    /*#pull,.top-nav-wrapper .content-wrap,#mfnDemoPanel{*/
+        /*display:none;*/
+    /*}*/
+    .logofont img{
+        max-height:50px;
+    }
+    .toggle-mobile-menu:before{
+        color:#fff !important;
+    }
+    header .navTitle{
+        position:absolute;
+        left:119px;
+        top:286px;
+    }
+    header .navTitle .titleWrap p{
+        font-size:52px;
+        color:rgb(255,255,255);
+        font-family:"PT Serif";
+        font-weight:700;
+        line-height:52px;
+        white-space:nowrap;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transform-origin: 50% 50% 0px;
+        margin-bottom:30px;
+    }
+    header .navTitle .titleWrap span{
+        display:block;
+        font-size:12px;
+        line-height:18px;
+        font-weight:500;
+        font-family:"Yantramanav";
+        color:rgb(110,198,86);
+        white-space:nowrap;
+        margin-bottom:30px;
+    }
+    header .navTitle .icon{
+        position:absolute;
+        left:-80px;
+        top:30px;
+        font-size:14px;
+        line-height:22px;
+        background-color:rgb(110,198,86);
+        font-weight:400;
+        white-space:nowrap;
+        min-height: 5px;
+        min-width: 61px;
+        max-height: 5px;
+        max-width: 61px;
+        opacity: 1;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transform-origin: 50% 50% 0px;
+    }
+}
+@media only screen and (max-width:766px){
+    #page{
+        height:477px;
+    }
+    #masthead{
+        height:477px;
+        /*border:1px solid red;*/
+        background-repeat: no-repeat !important;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+        background-size: cover !important;
+        background-position: center center !important;
+        width: 100%;
+    }
+    .super-menu{
+        display:flex !important;
+        align-items:center !important;
+        padding:0 10px;
+        height:80px;
+        box-sizing:border-box;
+        background-color:#574442 !important;
+    }
+    .super-menu .logofont{
+        position:absolute;
+        left:50%;
+        margin-left:-68.5px;
+    }
+    header .navTitle .titleWrap p {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    header .navTitle .icon {
+        position: absolute;
+        left: -80px;
+        top: 21px;
+        font-size: 10px;
+        line-height: 15px;
+        min-height: 3px;
+        min-width: 43px;
+        max-width: 43px;
+        max-height: 3px;
+    }
+    header .navTitle .titleWrap span{
+        display:block;
+        font-size:9px;
+        line-height:13px;
+        letter-spacing:2px;
+    }
+    header .navTitle .bg{
+        width:6.83544px;
+        height:11.3924px;
+        font-size:10px;
+    }
+}
+@media only screen and (max-width:535px){
+    #page{
+        height:406px;
+    }
+    #masthead{
+        height:406px;
+        background-repeat: no-repeat !important;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    header .navTitle{
+        position:absolute;
+        left:50px;
+        top:180px;
+    }
+    header .navTitle .titleWrap p{
+        font-size: 27px !important;
+        line-height: 27px !important;
+        margin-bottom:15px;
+    }
+    header .navTitle .icon {
+        position: absolute;
+        left: -36px;
+        top:10px;
+        font-size: 7px;
+        line-height: 11px;
+        min-height: 3px;
+        min-width: 31px;
+        max-width: 31px;
+        max-height: 3px;
+    }
+    header .navTitle .titleWrap span{
+        display:block;
+        font-size:6px;
+        line-height:9px;
+        letter-spacing:1px;
+        margin-bottom:10px;
+    }
+    header .navTitle .bg{
+        width:5.02258px;
+        height:8.37097px;
+        font-size:7px;
+    }
+}
+@media only screen and (max-width:424px){
+    #page,#page header{
+        height:302px;
+        background-repeat: no-repeat !important;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    header .navTitle{
+        position:absolute;
+        left:50px;
+        top:180px;
+    }
+    header .navTitle .titleWrap p {
+        font-size: 21px;
+        line-height: 21px;
+        margin-bottom:15px;
+    }
+    header .navTitle .icon {
+        position: absolute;
+        left: -36px;
+        top:10px;
+        font-size: 4px;
+        line-height: 7px;
+        min-height: 2px;
+        min-width: 25px;
+        max-width: 25px;
+        max-height: 2px;
+    }
+    header .navTitle .titleWrap span{
+        display:block;
+        font-size:5px;
+        line-height:7px;
+        letter-spacing:1px;
+        margin-bottom:10px;
+    }
+    header .navTitle .bg{
+        width:3.93418px;
+        height:6.55696px;
+        font-size:3px;
+    }
+}
+@media only screen and (max-width:366px){
+    #page header{
+        background-repeat: no-repeat !important;
+        background:url("/wp-content/themes/bloggist/images/header/home_garden3_slider_bg.jpg") !important;
+        background-size: cover !important;
+        background-position: center center !important;
+        width: 100%;
+        height: 100%;
+    }
+    header .navTitle{
+        position:absolute;
+        left:50px;
+        top:120px;
+    }
+    header .navTitle .titleWrap p {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom:15px;
+    }
+    header .navTitle .icon {
+        position: absolute;
+        left: -30px;
+        top:10px;
+        font-size: 4px;
+        line-height: 6px;
+        min-height: 2px;
+        min-width: 21px;
+        max-width: 21px;
+        max-height: 2px;
+    }
+    header .navTitle .titleWrap span{
+        display:block;
+        font-size:4px;
+        line-height:6px;
+        letter-spacing:1px;
+        margin-bottom:10px;
+    }
+    header .navTitle .bg{
+        width:3.37215px;
+        height:5.62025px;
+        font-size:2px;
+    }
+}
+@media only screen and (max-width:320px){
+    #page{
+        width:100%;
+        /*border:1px solid blue;*/
+    }
+    header .navTitle .titleWrap p{
+        font-size:19px !important;
+        line-height:19px !important;
+    }
+    header .navTitle .titleWrap span{
+        font-size:4px !important;
+        line-height:6px !important;
+        letter-spacing:0px;
+    }
+}
+.current_page_item a{
+    color: #fff !important;
+    background-color:#6ec656;
+}

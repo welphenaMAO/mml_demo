@@ -1,0 +1,467 @@
+@media only screen and (min-width:1023px){
+    .section{
+        position:relative;
+    }
+    .section:first-child{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-image: url("/wp-content/themes/bloggist/images/content/Projects/Speed_dial/home_garden3_offer3.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .section .section_wrapper{
+        padding-top:0;
+    }
+    .section:after,.section_wrapper:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .section:first-child .section_wrapper .wrap:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .section:first-child .section_wrapper .wrap:first-child{
+        padding:0 2%;
+    }
+    .one-second.mcb-wrap {
+        width: 50%;
+    }
+    .one.column {
+        width: 98%;
+    }
+    .column_image {
+        line-height: 0;
+    }
+    .column, .columns {
+        float: left;
+        margin: 0 1% 40px;
+    }
+    .mcb-wrap {
+        float: left;
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 700;
+        letter-spacing: 0px;
+    }
+    p{
+        color:#969f94;
+        font-size:14px;
+        line-height:24px;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:nth-child(2) h2{
+        margin-top:0;
+    }
+    .column_button .button {
+        margin: 0!important;
+        vertical-align: middle;
+    }
+
+    a.button, a.tp-button {
+        background-color: #f7f7f7;
+        color: #747474;
+    }
+    a.button_js {
+        padding: 0;
+    }
+    a.button, a.tp-button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+        display: inline-block;
+        padding: 11px 20px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        margin-right: 7px;
+        border: 0;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_one/box_shadow_button.png");
+        background-repeat: repeat-x;
+    }
+    a.button.button_left .button_icon, a.tp-button.button_left .button_icon {
+        float: left;
+    }
+    a.button .button_icon {
+        padding: 0px 10px;
+    }
+    a.button .button_icon {
+        display: block;
+        float: left;
+        background: rgba(0,0,0,.05);
+    }
+    .one-second.mcb-wrap {
+        width: 50%;
+    }
+    a.button .button_label {
+        padding: 1px 20px;
+    }
+
+    a.button .button_label {
+        display: block;
+        float: left;
+        position: relative;
+        z-index: 2;
+    }
+    .icon-right-open-mini:before {
+        content: '>';
+        display:inline-block;
+        width:17px;
+        height:17px;
+        margin:0 2px;
+        font-size:20px;
+        font-family:"黑体","Microsoft YaHei New";
+        box-sizing:border-box;
+        text-align:center;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:last-child a{
+        padding-top:0;
+        padding-left:0;
+        padding-bottom:0;
+        max-height:59px;
+        display:flex;
+        align-items:center;
+        max-width:185px;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:last-child a span:first-child{
+        padding:8px 10px;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:last-child a span:last-child{
+        font-size:14px;
+        display:inline-block;
+        vertical-align:middle;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .column:last-child a.button span:last-child{
+        font-size:14px;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child{
+        padding:120px 4% 70px;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child .mcb-wrap-inner .column:nth-child(2) h2{
+        margin-top:0;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:last-child{
+        padding:0 2%;
+    }
+    .column.column_divider {
+        margin-bottom: 0 !important;
+        height: auto !important;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:last-child .mcb-wrap-inner hr{
+        margin: 0 auto 400px;
+    }
+    .section:nth-child(2){
+        padding-top: 0px;
+        padding-bottom: 0px;
+        /*background-color: #1b1716;*/
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_two/home_garden3_offer5.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .section:nth-child(2) .section_wrapper .mcb-wrap-inner .column:last-child a{
+        max-height:59px;
+        box-sizing:border-box;
+        display:flex;
+        align-items:center;
+        max-width:185px;
+        padding-top:0;
+        padding-left:0;
+        padding-bottom:0;
+    }
+    .section:nth-child(2) .section_wrapper .mcb-wrap-inner .column:last-child a span:first-child{
+        display:inline-block;
+        height:100% !important;
+        padding:12px 11px;
+    }
+    .section:nth-child(2) .section_wrapper .mcb-wrap-inner .column:last-child a span:last-child{
+        font-size:14px;
+        display:inline-block;
+        vertical-align:middle;
+    }
+    .section:last-child{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_three/home_garden3_offer3.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .section:last-child .section_wrapper .wrap{
+        padding:0 2%;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .column:nth-child(2) h2{
+        margin-top:0;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .column:last-child a{
+        display:flex;
+        align-items:center;
+        padding-top:0;
+        padding-bottom:0;
+        padding-left:0;
+        max-width:185px;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .column:last-child a span:first-child{
+        padding:8px 10px;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .column:last-child a span:last-child{
+        font-size:14px;
+    }
+}
+@media only screen and (max-width:1022px){
+    .section{
+        position:relative;
+    }
+    .section:after,.section_wrapper:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 700;
+        letter-spacing: 0px;
+    }
+    p{
+        color:#969f94;
+    }
+    .column, .columns {
+        float: left;
+        margin: 0 1% 40px;
+    }
+    .section:first-child{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-image: url(https://themes.muffingroup.com/be/garden3/wp-content/uploads/2018/04/home_garden3_offer3.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .mcb-wrap {
+        float: left;
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+    }
+    .one-second.mcb-wrap {
+        width: 50%;
+    }
+    .section:first-child .section_wrapper .wrap{
+        padding: 0 2%;
+        box-sizing:border-box;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .column:nth-child(2) h2{
+        margin-top:0;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .column:nth-child(2) p{
+        font-size:14px;
+    }
+    a.button{
+        display:flex;
+        align-items:center;
+        padding:0;
+    }
+    .button_icon{
+        padding:13px 18px;
+        max-height:49px;
+        background: rgba(0,0,0,.05);
+    }
+    .button_icon:after{
+        content:">";
+        display:inline-block;
+        font-size:14px;
+        text-align:center;
+        font-family:"黑体","Microsoft YaHei New";
+    }
+    .button_label{
+        margin:0 15px;
+    }
+    a.button{
+        display:flex;
+        align-items:center;
+        background-color: #f7f7f7;
+        color: #747474;
+        cursor: pointer;
+        border: 0;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
+        background-image: url("/wp-content/themes/bloggist/images/Services/floor_three/box_shadow_button.png");
+        background-repeat: repeat-x;
+        height:49px;
+    }
+    .section:nth-child(2){
+        padding-top: 0px;
+        padding-bottom: 0px;
+        /*background-color: #1b1716;*/
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_two/home_garden3_offer5.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child{
+        padding: 120px 4% 70px;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child .mcb-wrap-inner .column:first-child{
+        width:98%;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child .mcb-wrap-inner .column:nth-child(2) h2{
+        margin-top:0;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child .mcb-wrap-inner .column:last-child{
+        width:98%;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:first-child .mcb-wrap-inner .column:last-child a.button{
+        max-width:144px;
+    }
+    .highlight-left:after{
+        content:"";
+        position:absolute;
+        width:50%;
+        height:100%;
+        top:0;
+        background: #f5f9f4;
+    }
+    .section:last-child{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_three/home_garden3_offer3.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .section:last-child .section_wrapper .wrap{
+        padding:0 2%;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:nth-child(2) h2{
+        margin-top:0;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:nth-child(2) p{
+        font-size:14px;
+    }
+}
+@media only screen and (max-width:766px){
+    .section{
+        background-attachment:scroll !important;
+        height:auto !important;
+    }
+    .highlight-left{
+        position:relative;
+    }
+    .section:first-child{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_one/home_garden3_offer3.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .section_wrapper ,.container{
+        position:relative;
+        margin:0 auto;
+    }
+    img.scale-with-grid,#Content img{
+        max-width:100% !important;
+        height:auto;
+    }
+    .section:first-child .section_wrapper{
+        max-width:546px;
+        padding-left:33px;
+        padding-right:33px;
+        box-sizing:border-box;
+
+    }
+    .section_wrapper .mcb-wrap{
+        margin:0;
+        width:100% !important;
+        clear:both;
+    }
+    .section:first-child .section_wrapper .wrap{
+        padding:0 2%;
+    }
+    .section:first-child .section_wrapper .column {
+        margin:0 0 20px;
+        height:auto !important;
+    }
+    .section:first-child .section_wrapper .wrap:first-child .mcb-wrap-inner .image_wrapper img{
+        max-width:100%;
+        height:auto;
+    }
+    .section_wrapper .column {
+        width:100% !important;
+        margin:0 0 20px;
+        height:auto !important;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 41px;
+    }
+    .section:first-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:last-child a.button{
+        max-width:148px;
+    }
+    .section:nth-child(2){
+        padding-top:0;
+        padding-bottom:0;
+        /*backgound-color:#1b1716 !important;*/
+        background-color:url("/wp-content/themes/bloggist/images/content/Services/floor_two/home_garden3_offer5.jpg") !important;
+        background-repeat:no-repeat;
+        background-position:right top;
+    }
+    .section:nth-child(2) .section_wrapper .wrap{
+        background-color:#f5f9f4;
+        margin:0;
+        width:100% !important;
+        clear:both;
+    }
+    .section:nth-child(2) .section_wrapper .column {
+        margin: 0 0 20px;
+        height: auto !important;
+    }
+    .section:nth-child(2) .section_wrapper .wrap:last-child .column .no_line{
+        margin: 0 auto 400px !important;
+    }
+    .section:last-child .section_wrapper{
+        max-width:480px !important;
+        padding-left:33px !important;
+        padding-right:33px !important;
+    }
+    .section:last-child .section_wrapper .wrap:last-child .mcb-wrap-inner .column:last-child a.button{
+        max-width:144px;
+    }
+}
+@media only screen and (max-width:535px){
+    .section:first-child {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_one/home_garden3_offer3.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .section:first-child .section_wrapper{
+        position:relative;
+        max-width:480px !important;
+        margin:0 auto;
+        box-sizing:border-box;
+    }
+
+}
+@media only screen and (max-width:424px) {
+    h2 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .section:first-child .section_wrapper .wrap:last-child .column:nth-child(2) p {
+        font-size: 12px;
+    }
+
+    .section:nth-child(2) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #1b1716;
+        background-image: url("/wp-content/themes/bloggist/images/content/Services/floor_two/home_garden3_offer5.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+}
