@@ -1,0 +1,284 @@
+.Content .section .wrap:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.section .column{
+      h2 {
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 700;
+        color: #fff;
+      }
+      h5 {
+        font-size: 23px;
+        line-height: 33px;
+        font-weight: 400;
+      }
+      p{
+        color: $gray;
+        font-size: 16px;
+      }
+      h6{
+          font-size: 15px;
+          line-height: 25px;
+          font-weight: 700;
+      }
+}
+.section:first-child{
+  padding-bottom: 80px;
+  background: url(#{($imgPath)}/content/Home/floor_one/home_garden3_sectionbg1.jpg) no-repeat center bottom;
+  .wrap{
+    position: relative;
+    z-index: 1;
+    float: left;
+    box-sizing: border-box;
+    .column{
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      //h2{
+      //    font-size: 45px;
+      //    line-height: 55px;
+      //    font-weight: 700;
+      //    color: #fff;
+      //}
+      //h5{
+      //    font-size: 23px;
+      //    line-height: 33px;
+      //    font-weight: 400;
+      //}
+      h6{
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 700;
+        color: #222f1f;
+        i{
+          color: $green;
+        }
+      }
+      //p{
+      //  color: $gray;
+      //  font-size: 16px;
+      //}
+    }
+  }
+  .wrap:first-child{
+    margin-top: -60px;
+    .column{
+      width: 50%;
+      background-color: $green;
+      margin: 0;
+      padding: 110px 50px 95px;
+      box-sizing: border-box;
+    }
+  }
+  .wrap:nth-child(2){
+    width: 40%;
+    padding: 70px 5% 55px;
+    .column{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .wrap:nth-child(3){
+    margin-top: -215px;
+    width: 60%;
+    z-index: 28;
+    .column{
+      margin: 0;
+    }
+  }
+  .wrap:nth-child(4){
+    width: 40%;
+    .column{
+      width: 100%;
+      margin: 0;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .wrap:last-child{
+    padding: 70px 7% 55px;
+    width: 60%;
+    .column:first-child{
+      h2{
+        color: #222f1f;
+      }
+    }
+    .column:nth-child(2){
+      width: 100%;
+    }
+    .column:nth-child(3){
+      padding: 0 8% 0 0;
+      h5{
+        font-size: 21px;
+      }
+    }
+    .column:last-child{
+      background-color: #ffffff;
+      padding: 50px 40px 35px;
+      border-bottom: 5px solid #70c458;
+      text-align: center;
+      h2{
+        color: #222f1f;
+      }
+    }
+    .column:nth-child(3),
+    .column:last-child{
+      width: 50%;
+      box-sizing: border-box;
+    }
+  }
+}
+.section:nth-child(2){
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background: #222f1f url(#{($imgPath)}/content/Home/floor_two/home_garden3_sectionbg2.png) no-repeat center top;
+  .wrap{
+    .column:first-child{
+      width: 98%;
+      text-align: center;
+    }
+    .column{
+      //h2{
+      //    font-size: 45px;
+      //    line-height: 55px;
+      //    font-weight: 700;
+      //    color: #fff;
+      //}
+      p{
+        letter-spacing: 3px;
+        color: $green;
+      }
+    }
+    .one-fourth{
+      .trailer_box{
+        &:hover{
+          .desc{
+            background-color: $green;
+            div:first-child{
+              margin-bottom: 0;
+              bottom: 0;
+            }
+          }
+        }
+      }
+      .desc{
+        padding: 27px 15px 30px;
+        h2{
+          position: relative;
+          margin: 0 !important;
+          font-size: 32px;
+          line-height: 30px;
+          bottom: 0;
+        }
+        .line{
+          display: none;
+        }
+      }
+      .desc div:first-child{
+        background-color: transparent;
+        color: rgba(255,255,255,.7);
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.section:last-child{
+  padding-bottom: 120px;
+  .mcb-wrap{
+      position: relative;
+      float: left;
+      z-index: 1;
+      box-sizing: border-box;
+  }
+  .wrap{
+    .column{
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+  .wrap:first-child{
+    width: 33.333%;
+    padding: 70px 7% 55px 0;
+    h2{
+      color: #222f1f;
+    }
+  }
+  .wrap:nth-child(2){
+      margin-top: -60px;
+      width: 66.666%;
+      .column:first-child{
+          height: 323px;
+          width: 50%;
+          background-color: #6ec656;
+          padding: 50px 50px 35px;
+          box-sizing: border-box;
+      }
+      .column:nth-child(2){
+          width: 100%;
+          hr{
+              margin: 0;
+          }
+      }
+      .column:nth-child(3){
+          width: 50%;
+          height: 323px;
+          box-sizing: border-box;
+          background: url(#{($imgPath)}/content/Home/floor_three/home_garden3_pic12.jpg) no-repeat center top;
+      }
+      .column:last-child{
+          height: 323px;
+          width: 50%;
+          box-sizing: border-box;
+          background-color: #355b2b;
+          padding: 50px 50px 35px;
+      }
+  }
+  .wrap:last-child{
+      width: 100%;
+      .column{
+          height: 323px;
+          width: 33.333%;
+          box-sizing: border-box;
+      }
+      .column:first-child{
+          background-color: #599f46;
+          padding: 50px 50px 35px;
+      }
+      .column:last-child{
+          background: url(#{($imgPath)}/content/Home/floor_three/home_garden3_pic13.jpg) no-repeat center top;
+          padding: 130px 50px 35px;
+          text-align: center;
+      }
+  }
+}
+@media only screen and (max-width: 1240px) and (min-width: 960px){
+    //.section .section_wrapper{
+    //    max-width: 940px !important;
+    //}
+    .section:first-child .section_wrapper{
+        max-width: 940px !important;
+        .wrap:nth-child(3) .column{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .wrap:nth-child(4){
+            width: 40%;
+            float: initial;
+        }
+        .wrap:last-child{
+            width: 60%;
+        }
+    }
+}
+@media only screen and (max-width: 959px) and (min-width: 768px){}
+@media only screen and (max-width: 767px){}

@@ -1,0 +1,56 @@
+@include navHeight;
+@include outerlogo;
+@include headerH1;
+#Header{ min-height: 0 !important; }
+.section_wrapper,
+.container{
+    position: relative;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.container{
+  .top_bar_left{
+      padding: 0 !important;
+  }
+}
+#Top_bar{
+  position: fixed;
+  &.is-sticky{ }
+  background-color: transparent !important;
+  .menu{
+      >li{
+          margin: 0 2px !important;
+      }
+  }
+}
+
+@media only screen and (max-width: 1239px) and (min-width: 960px){
+    @include navHeight;
+    @include logoHeight;
+    @include outerlogo;
+    @include headerH1;
+}
+@media only screen and (max-width: 959px) and (min-width: 768px){
+    @include navHeight;
+    @include logoHeight;
+    @include outerlogo;
+    @include headerH1;
+}
+@media only screen and (max-width: 767px){
+    @include logoHeight;
+    @include headerH1;
+    #Top_bar{
+        &.is-sticky{
+            #logo{
+                padding: 0 !important;
+                margin: 5px 50px;
+                img{
+                    max-height: 50px !important;
+                }
+            }
+        }
+        .container{
+            background-color: #574442 !important;
+        }
+    }
+}
