@@ -1,0 +1,34 @@
+# /
+license.txt
+readme.html
+node_modules
+data
+.idea
+.DS_Store
+.tmb
+.user.ini
+wp-config.php
+*.sql
+Thumbs.db
+._*
+/package-lock.json
+*.rar
+
+# */
+*/.DS_Store
+*/.idea
+*/.tmb
+*/*.rar
+
+# /wp-content
+wp-content/.DS_Store
+wp-content/plugins/.DS_Store
+wp-contentOLD/wp-content/.DS_Store
+wp-contentOLD/wp-content/themes/.DS_Store
+wp-content/uploads/*
+wp-content/cache/*
+wp-content/theme/betheme-child/node_modules/*
+wp-content/theme/betheme-child/npm-debug.log
+wp-content/theme/betheme-child/src/img-slice/*
+wp-content/theme/betheme-child/src/img-slice
+

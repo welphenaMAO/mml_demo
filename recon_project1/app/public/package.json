@@ -1,0 +1,10 @@
+{
+  "备注": "此配置只为php开发时页面自动加载用",
+  "scripts": {
+    "reload": "gulp reload"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.18.13"
+  }
+}
